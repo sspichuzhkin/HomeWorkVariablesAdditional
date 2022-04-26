@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Task6();
         Task7();
-        Task8();
+        Task8v1();
+        Task8v2();
     }
 
     public static void Task6() {
@@ -36,7 +37,7 @@ public class Main {
 
     }
 
-    public static void Task8() {
+    public static void Task8v1() {
 // Объявите переменную a и инициализируйте ее любым трехзначным числом.
 // Объявите переменную b и, путем математических операций над a получите и присвойте переменной b цифру,
 // которая находится в центре значения из переменной a.
@@ -53,5 +54,11 @@ public class Main {
         int b = Integer.parseInt(strNew);
         System.out.println(b);
 
+    }
+
+    public static void Task8v2(){
+        int a = 789;
+        int b = a / 10 % 10;
+        System.out.println(b);
     }
 }
